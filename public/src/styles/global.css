@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter&family=Kanit&family=Lobster&family=Merriweather:wght@700&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+.main-container {
+    width: auto;
+    background-color: #ffffff;
+    margin-left: 18.2rem;
+}
+
+.footer-container {
+    width: auto;
+    padding: 2rem;
+    background-color: #27005D;
+    margin-left: 18.2rem;
+    height: auto;
+    display: flex;
+    color: #9400FF;
+    justify-content: space-around;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+.intro-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem 2rem 2rem;
+}
+#title {
+    background: none;
+    color: rgb(0, 174, 255);
+    font-size: 66pt;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.about-us-container {
+    height: auto;
+    padding: 2rem;
+}
+.descriptions {
+    width: 1200px;
+    margin: 0 auto 0;
+    padding: 2rem;
+}
+.descriptions ul div li {
+    list-style: none;
+    font-size: 16pt;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    word-wrap: 56px;
+}
+.descriptions ul div h2 {
+    font-size: 34pt;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 1rem 0 2rem;
+}
+.image-banner img {
+    width: 1200px;
+    border: 1px black solid;
+    margin: 0 0 1rem 0;
+}

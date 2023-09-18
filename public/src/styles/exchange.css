@@ -1,0 +1,15 @@
+.change-currencies {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.currencies-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#display-exchange {
+    text-align: center;
+    font-size: 22pt;
+    margin-top: 1rem;
+}

@@ -1,0 +1,52 @@
+.slide-bar {
+    width: 260px;
+    height: 100vh;
+    background-color: rgb(4, 7, 61);
+    position: fixed;
+    padding: 1rem;
+}
+
+.logo {
+    margin: 1rem 0 1.5rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+.logo span {
+    font-size: 20pt;
+    font-weight: bold;
+    color: white;
+}
+
+
+.slide-bar ul {
+    text-align: center;
+}
+.slide-bar ul li {
+    list-style: none;
+    margin: 5px;
+    padding: 1rem;
+}
+.slide-bar ul li:hover {
+    list-style: none;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.24);
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
+.slide-bar ul li a {
+    font-size: 13pt;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+.slide-bar ul li a i {
+    font-size: 19pt;
+    margin-right: 10px;
+}
+
